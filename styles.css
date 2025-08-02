@@ -1,0 +1,42 @@
+.about-text {
+    font-size: 5 rem;
+    line-height: 1.8;
+}
+.thumb {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thumb:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+#pool-types .image-container {
+  height: 300px; /* Adjust height as needed */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#pool-types .image-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#pool-types h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+#pool-types p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+.hero-content h1 {
+  font-family: 'Cinzel', serif !important;
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
